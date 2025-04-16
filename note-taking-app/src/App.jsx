@@ -1,13 +1,19 @@
-import "./App.css";
-import Navbar from "./navbar";
+import Navbar from "./navbar"
+import Sidebar from "./sidebar"
+import './App.css'
+
+
+
 function App() {
+
+
   return (
     <>
-      <Navbar />
-      <p>navbar</p>
-      <h1>hell</h1>
+   <Navbar/>
+   <Sidebar/>
+   <h1>Notes</h1>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
